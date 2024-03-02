@@ -18,7 +18,7 @@ jobs:
     - name: Set up Google Cloud CLI
       uses: google-github-actions/setup-gcloud@v0
       with:
-        service_account_key: ${{ secrets.GCP_SA_KEY }}
+        service_account_key: ${{ secrets.******** }}
         project_id: ${{ secrets.GCP_PROJECT }}
 
     - name: Build and push Docker image
